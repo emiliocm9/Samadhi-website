@@ -1057,16 +1057,16 @@ html {
   width: 30%;
 }
 
-@media (pointer: coarse) and (hover: none) {
-/*   .header-two {
+/* @media (pointer: coarse) and (hover: none) {
+  .header-two {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
   
   .header-two video {
     display: none;
-  } */
+  }
 }
-
+ */
 
 /*# sourceMappingURL=application.css.map */
 

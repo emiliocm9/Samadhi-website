@@ -630,7 +630,7 @@ ul.social-network li {
 }
 
 /*------------------------------------------------- Header section ------------------------------------*/
-header {
+.header-two {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -639,7 +639,7 @@ header {
   overflow: hidden;
 }
 
-header video {
+.header-two video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -654,12 +654,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.header-two .container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+.header-two .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -679,14 +679,14 @@ header .overlay {
   width: 30%;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  header {
+/* @media (pointer: coarse) and (hover: none) {
+  .header-two {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
-  header video {
+  .header-two video {
     display: none;
   }
-}
+} */
 
 /*---------------------------------------------------- Section Products ----------------------------------------*/
 .products {
