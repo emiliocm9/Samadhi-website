@@ -272,6 +272,7 @@ form {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   background: white;
 }
+
 form input, form textarea {
   background: white;
   display: block;
@@ -279,6 +280,7 @@ form input, form textarea {
   width: 100%;
   border: 0;
 }
+
 form input {
   height: 40px;
   line-height: 40px;
@@ -287,6 +289,7 @@ form input {
   font-size: 1rem;
   color: rgba(68, 68, 68, 0.8);
 }
+
 form textarea {
   border-bottom: 1px solid rgba(68, 68, 68, 0.3);
   resize: none;
@@ -300,7 +303,7 @@ form button {
   display: block;
   height: 40px;
   width: 70%;
-  left: 95px;
+  left: 17%;
   border: 0;
   border-radius: 20px;
   bottom: -20px;
@@ -352,11 +355,21 @@ form button {
 
 @media screen and (max-width: 600px) {
 	.contact-form-container {
-		width: 100%;
-	}
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header" "address address phone email" "contact-form contact-form contact-form contact-form";
+  }
+
+  .contact-header {
+    display: none;
+  }
+
+  .contact-us {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .contact-form-container {
 		width: 100%;
 	}
