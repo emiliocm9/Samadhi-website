@@ -749,8 +749,37 @@ html {
 }
 
 .service-icon img {
-  width: 10rem;
-  border-radius: 2rem;
+  opacity: 0;
+}
+
+.service-icon {
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-one {
+  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.47\ PM.jpeg);
+}
+
+.product-two {
+  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.47\ PM\ \(1\).jpeg);
+}
+
+.product-three {
+  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.48\ PM.jpeg);
+}
+
+.product-four {
+  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.48\ PM\ \(1\).jpeg);
+}
+
+.product-five {
+  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.48\ PM\ \(2\).jpeg);
+}
+
+.product-six {
+  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.50\ PM.jpeg);
 }
 
 .service-text {

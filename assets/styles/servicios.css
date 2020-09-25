@@ -797,17 +797,16 @@ h5 {
   margin-bottom: 1.25em;
   font-weight: 600;
   letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
   display: block;
   font-family: "Lato", "sans-serif";
   text-transform: uppercase;
   color: #b3b3b3;
 }
 .b-favourite-list__profile {
-  display: inline-block;
 }
-.b-favourite-list__profile:not(:first-of-type) {
-  margin-left: -15px;
-}
+
 .b-favourite-list__profile img {
   border-radius: 50%;
   border: 3px solid #fff;
