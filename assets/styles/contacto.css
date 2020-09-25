@@ -266,7 +266,7 @@
 
 form {
   position: relative;
-  width: 440px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -299,7 +299,7 @@ form button {
   position: absolute;
   display: block;
   height: 40px;
-  width: 250px;
+  width: 70%;
   left: 95px;
   border: 0;
   border-radius: 20px;
@@ -348,4 +348,16 @@ form button {
 
 .contact-form {
   grid-area: contact-form;
+}
+
+@media screen and (max-width: 600px) {
+	.contact-form-container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+  .contact-form-container {
+		width: 85%%;
+	}
 }
