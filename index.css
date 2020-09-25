@@ -486,8 +486,7 @@ html {
 	        animation: jello-horizontal 0.9s both;
 }
 
-.fab,
-.fas {
+.ico-top {
   position: relative;
   top: -4px;
 }
@@ -613,7 +612,7 @@ html {
 
 /*------------------------------------------------------- Seccion de Servicios ------------------------------*/
 .servicios_general-cont {
-  margin-top: 10rem;
+  margin-top: 15rem;
   margin-bottom: 3rem;
   width: 95%;
 }
@@ -681,7 +680,7 @@ html {
   height: 886px;
   left: 10%;
   top: 50%;
-  background: #26cdff;
+  background: #c2e6f0;
 }
 .our-services .sec-title {
   text-align: center;
@@ -783,12 +782,11 @@ html {
 /*FOOTER*/
 
 footer {
-  background: #16222A;
-  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
-  background: linear-gradient(59deg, #3A6073, #16222A);
+  background: #385961;
   color: white;
-  margin-top:100px;
+  margin-top: 10rem;
 }
+
 
 footer a {
   color: #fff;
