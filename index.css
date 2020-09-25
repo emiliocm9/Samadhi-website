@@ -1043,7 +1043,7 @@ form button {
 
 .contact-form-container {
   width: 75%;
-  margin: 0 auto;
+  margin: 7rem auto 8rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr 2fr;
@@ -1077,6 +1077,7 @@ form button {
 @media screen and (max-width: 600px) {
 	.contact-form-container {
     width: 100%;
+    margin-bottom: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "header header header header" "address address phone email" "contact-form contact-form contact-form contact-form";
   }
