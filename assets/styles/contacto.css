@@ -358,6 +358,6 @@ form button {
 
 @media screen and (max-width: 800px) {
   .contact-form-container {
-		width: 85%;
+		width: 100%;
 	}
 }
