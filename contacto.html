@@ -61,7 +61,7 @@
   <header class="header-two">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="assets/videos/homeopathy-products-video.mp4" type="video/mp4">
+      <source src="assets/videos/Redes-sociales.mp4" type="video/mp4">
     </video>
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
@@ -73,6 +73,83 @@
       </div>
     </div>
   </header>
+
+  <!------------------------------------------------------- Maps Section ---------------------------------->
+  <div class="position-relative text-center container-fluid mt-4 map-container_gen">
+    <p class="text-address">
+      Av. Navarra, Local 7, Col. Puerta Navarra, Santiago Querétaro (175,72 km) 76116 Querétaro, México
+    </p>
+    <div class="details-on-map show-map">
+      <div class="paper-map">
+        <div class="map-side"></div>
+        <div class="map-side"></div>
+        <div class="map-side"></div>
+        <div class="map-side"></div>
+      </div>
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <!-------------------------------------------------- Contact Form ----------------------------------------->
+  <div class="contact-form-container">
+  <div class="contact-us">
+    <div class="contact-header">
+      <h1>
+        &#9135;&#9135;&#9135;&#9135;&nbsp;&nbsp;Contáctanos
+      </h1>
+    </div>
+    <div class="social-bar-contact">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-instagram"></i>
+        </li>
+        <li>
+          <i class="fab fa-dribbble"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="header-contact">
+    <h1>
+      Ponte en contacto con nosotros!
+    </h1>
+    <h2>
+      Cuidamos tu bienestar 
+    </h2>
+  </div>
+  <div class="address">
+    <i class="fas fa-map-marker-alt"></i>
+    <h3>
+      Av. Navarra, Local 7, Col. Puerta Navarra, Santiago Querétaro
+    </h3>
+    <h3>
+      76116 Querétaro, México
+    </h3>
+  </div>
+  <div class="phone">
+    <i class="fas fa-phone-alt"></i>
+    <h3>
+      757 287 1608
+    </h3>
+  </div>
+  <div class="email">
+    <i class="fas fa-envelope"></i>
+    <h3>
+      hello@adept.com
+    </h3>
+  </div>
+  <div class="contact-form">
+    <form>
+      <input placeholder="Name" type="text" /><input placeholder="Email" type="email" /><textarea placeholder="Tell us about your project..." rows="4"></textarea><button type="button">SEND </button>
+    </form>
+  </div>
+</div>
 
   <!------------------------------------------------ Footer Section --------------------------------------------->
 <footer class="mainfooter text-center text-md-left" role="contentinfo">
@@ -150,6 +227,8 @@ $('.menutoggle').toggleClass("buttonmove");
   });
 });
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbG-3-9ajB7-W5-V7aDF05U33tfN9nXd0&callback=initMap" async defer></script>
+<script src="assets/scripts/contacto.js"></script>
   
 </body>
 </html>
