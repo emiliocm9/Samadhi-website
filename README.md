@@ -1,3 +1,3 @@
 # Samadhi-website
 
-Natural Webpage
+Natural Spa and Oil Massage Webpage
