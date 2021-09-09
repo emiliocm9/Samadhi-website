@@ -1,3 +1,3 @@
 # Samadhi-website
 
-Web
+Natural Webpage
