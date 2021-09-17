@@ -1,4 +1,4 @@
 # Samadhi-website
 
 Natural Spa and Oil Massage Webpage
-This web
+This web page informative with social media links
