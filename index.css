@@ -45,6 +45,10 @@ html {
   font-style: italic;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
 /*----------------------------------------------------------------- Navbar ---------------------------------*/
 
 .nav_container {
@@ -635,6 +639,70 @@ html {
 }
 /* Imagen que tiene un origen en internet */
 
+.servicios_image-container-ortomolecular {
+  height: 30rem;
+  background-image: url('./assets/images/imagenes_muestra/ortomolecular.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicios_image-container-medicina-china {
+  height: 30rem;
+  background-image: url('./assets/images/imagenes_muestra/acupuntura.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicios_image-container-psicoterapia {
+  height: 30rem;
+  background-image: url('./assets/images/imagenes_muestra/meditacion.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.servicios_image-container-imanoterapia {
+  height: 30rem;
+  background-image: url('./assets/images/imagenes_muestra/imanoterapia.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.servicios_image-container-reiki {
+  height: 30rem;
+  background-image: url('./assets/images/imagenes_muestra/reiki.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.servicios_image-container-conoterapia {
+  height: 30rem;
+  background-image: url('./assets/images/imagenes_muestra/cono.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.servicios_image-container-raindrop {
+  height: 30rem;
+  background-image: url('./assets/images/imagenes_muestra/raindrop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.servicios_image-container-biodescodificacion {
+  height: 30rem;
+  background-image: url(https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Imagen que tiene un origen dentro de los archivos locales */
 .servicios_image-container-test {
@@ -661,7 +729,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.servicios_image-container-ortomolecular h3,
 .servicios_image-container h3,
 .servicios_image-container-three h3,
 .servicios_image-container-two h3 {
@@ -755,6 +823,7 @@ html {
 .our-services .single-service-item .service-icon {
   margin-bottom: 20px;
   overflow: hidden;
+  height: 300px;
   text-align: center;
 }
 .our-services .single-service-item .service-icon img {
@@ -772,7 +841,7 @@ html {
 }
 
 .product-one {
-  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.47\ PM.jpeg);
+  background-image: url(assets/images/products/suplementos.jpeg);
 }
 
 .product-two {
@@ -780,11 +849,13 @@ html {
 }
 
 .product-three {
-  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.48\ PM.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-image: url(assets/images/imagenes_muestra/omnilife.png);
 }
 
 .product-four {
-  background-image: url(assets/images/products/WhatsApp\ Image\ 2020-09-09\ at\ 8.00.48\ PM\ \(1\).jpeg);
+  background-image: url(assets/images/imagenes_muestra/imanes.jpg);
 }
 
 .product-five {
